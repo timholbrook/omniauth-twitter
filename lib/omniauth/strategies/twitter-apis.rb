@@ -3,8 +3,8 @@ require 'json'
 
 module OmniAuth
   module Strategies
-    class Twitter < OmniAuth::Strategies::OAuth
-      option :name, 'twitter'
+    class TwitterApis < OmniAuth::Strategies::OAuth
+      option :name, 'twitter_apis'
 
       option :client_options, {:authorize_path => '/oauth/authenticate',
                                :site => 'https://api.twitter.com',
